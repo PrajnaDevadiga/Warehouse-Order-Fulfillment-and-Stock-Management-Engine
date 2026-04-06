@@ -8,7 +8,7 @@ class Order:
     order_id: str
     product_id: str
     quantity: int
-    order_date: str  # kept as string to preserve original CSV content
+    order_date: str  
 
 
 @dataclass(frozen=True, slots=True)
