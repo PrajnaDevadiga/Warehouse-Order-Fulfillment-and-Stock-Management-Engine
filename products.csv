@@ -1,0 +1,7 @@
+product_id,product_name,available_stock,price
+P001,Laptop,20,50000
+P002,Mobile,50,20000
+P003,Headphones,100,1500
+P004,Monitor,30,12000
+P005,Keyboard,80,1000
+P006,Mouse,150,700

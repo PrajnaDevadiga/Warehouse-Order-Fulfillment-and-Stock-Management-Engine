@@ -1,0 +1,11 @@
+order_id,product_id,request_quantity,fulfilled_quantity,status,order_date,reason
+O001,P001,2,2,FULFILLED,2024-08-01,
+O002,P002,5,5,FULFILLED,2024-08-01,
+O003,P003,10,10,FULFILLED,2024-08-02,
+O004,P001,25,18,PARTIAL,2024-08-02,Insufficient stock (partial fulfillment)
+O005,P004,3,3,FULFILLED,2024-08-03,
+O006,P006,-5,0,REJECTED,2024-08-03,Quantity must be > 0
+O007,P007,2,0,REJECTED,2024-08-04,Invalid product
+O008,P005,10,0,REJECTED,invalid_date,Invalid order date
+O009,P002,20,20,FULFILLED,2024-08-05,
+O010,P003,15,15,FULFILLED,2024-08-05,
